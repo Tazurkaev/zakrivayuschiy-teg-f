@@ -248,8 +248,8 @@
 }
 
 .button__icon {
-  block-size: 28px;
-  inline-size: 28px;
+  height: 28px;
+  width: 28px;
 }
 
 .modal {
