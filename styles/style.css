@@ -19,6 +19,7 @@
   min-block-size: 100dvb;
   background-image: var(--background-image);
   font-family: var(--font-family);
+  font-variation-settings: "wght" var(--font-weight, 400);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,6 +133,7 @@
 .card__wrap {
   height: 370px;
   overflow: hidden;
+  position: relative;
 }
 
 .card__image {
@@ -309,6 +311,11 @@
   filter: sepia(90%);
 }
 
+.card__lable {
+  position: absolute;
+  top: 25px;
+  right: 13px;
+}
 
 @media (min-width: 376px) {
   .header {
@@ -330,18 +337,18 @@
 
   .footer__card {
     padding: 0 23px 24px 25px;
-  }   
+  }
 
   .card__text {
     gap: 20px;
-  }   
+  }
 }
 
 @supports (
   (-webkit-text-stroke: 1px var(--background-color)) or
     (text-stroke: 1px var(--background-color))
 ) {
-  .card__img-label {
+  .card__lable {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--background-color, #ffffff);
     text-stroke: 1px var(--background-color, #ffffff);
