@@ -224,10 +224,10 @@
 
 .button--save {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   padding: 15px 20px;
   margin: 47px auto 100px;
 }
@@ -236,15 +236,6 @@
 .button__icon {
   color: var(--color-button, #ffffff);
   mix-blend-mode: difference;
-}
-
-.button--save {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding: 15px 20px;
 }
 
 .button__icon {
@@ -290,6 +281,35 @@
   inline-size: 100%;
 }
 
+.filter-grayscale {
+  filter: grayscale(70%);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(210deg);
+}
+
+.filter-multiple {
+  filter: contrast(90%) hue-rotate(25deg) saturate(100%);
+}
+
+.filter-blur {
+  filter: blur(10px);
+}
+
+.filter-saturate {
+  filter: saturate(250%);
+}
+
+.filter-invert {
+  filter: invert(80%);
+}
+
+.filter-sepia {
+  filter: sepia(90%);
+}
+
+
 @media (min-width: 376px) {
   .header {
     min-width: 696px;
@@ -314,5 +334,16 @@
 
   .footer__card {
     padding: 0 23px 24px 25px;
+  }  
+}
+
+@supports (
+  (-webkit-text-stroke: 1px var(--background-color)) or
+    (text-stroke: 1px var(--background-color))
+) {
+  .card__img-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--background-color, #ffffff);
+    text-stroke: 1px var(--background-color, #ffffff);
   }
 }
