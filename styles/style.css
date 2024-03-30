@@ -315,6 +315,11 @@
   position: absolute;
   top: 25px;
   right: 13px;
+  color: var(--text-color);
+  opacity: 0.5;
+  font-family: var(--accent-font-family);
+  font-size: 14px;
+  /* text-transform: uppercase; */
 }
 
 @media (min-width: 376px) {
