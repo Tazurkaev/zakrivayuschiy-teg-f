@@ -328,13 +328,13 @@
     height: 700px;
   }
 
-  .card__text {
-    gap: 20px;
-  }
-
   .footer__card {
     padding: 0 23px 24px 25px;
-  }
+  }   
+
+  .card__text {
+    gap: 20px;
+  }   
 }
 
 @supports (
