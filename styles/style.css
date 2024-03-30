@@ -127,7 +127,6 @@
   background-color: var(--background-color);
   border: 2px solid var(--border-color);
   max-width: 696px;
-  /* margin-top: 50px; */
 }
 
 .card__wrap {
