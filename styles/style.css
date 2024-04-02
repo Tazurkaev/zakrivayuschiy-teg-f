@@ -136,7 +136,6 @@
 }
 
 .card__wrap {
-  /* height: 370px; */
   height: clamp(23.125rem, 31.1356rem + -34.1784vw, 0.375rem);
   position: relative;
 }
