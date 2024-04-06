@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --title-color: #0000;
-  --text-color: #0000;
-  --accent-text-colo: #000;
+  --title-color: #000;
+  --text-color: #000;
+  --accent-text-color: #000;
   --button-text-color: #000;
   --background-color: #fff;
   --font-weight: 400;

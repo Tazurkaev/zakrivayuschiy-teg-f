@@ -9,7 +9,7 @@
 :root.theme-light {
   --title-color: #000;
   --text-color: #000;
-  --accent-text-colo: #000;
+  --accent-text-color: #000;
   --button-text-color: #000;
   --border-color: #000;
   --background-color: #fff;
@@ -17,7 +17,6 @@
   --font-weight: 400;
   --font-weight-title: 700;
   --modal-background: #000;
-  --like-color: #ff0000;
   --font-family: "inter", sans-serif;
   --accent-font-family: "PressStart2P", fantasy;
   --background-image:
@@ -61,6 +60,7 @@ linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   --accent-text-colo: #00cc14;
   --button-text-color: #00cc14;
   --color-button: #00cc14;
+  --border-color: #000;
   --background-color: #000;
   --font-weight: 400;
   --like-color: #ff0000;
