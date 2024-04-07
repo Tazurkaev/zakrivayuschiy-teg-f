@@ -248,7 +248,7 @@
 
 .modal {
   border: 2px solid var(--text-color, #000000);
-  padding: 25px 25px;
+  padding: 30px 40px;
   color: var(--text-color, #000000);
   font-family: var(--accent-font-family, "PressStart2P", fantasy);
   line-height: 1.5;
@@ -270,7 +270,7 @@
 
 .modal::backdrop {
   opacity: 0.75;
-  background: var(--modal-background);
+  background: #000;
 }
 
 .modal__content {
@@ -341,16 +341,12 @@
   }
 
 .button__icon {
-  width: 21px;
-  height: 21px;
-}
+    width: 21px;
+    height: 21px;
+  }
 
   .footer__card {
     padding: 26px;
-  }
-
-  .card__text {
-    gap: 27px;
   }
 
   .modal {
@@ -359,7 +355,6 @@
   }
 
   .card__lable-img {
-    top: 25px;
     right: 25px;
   }
 }
